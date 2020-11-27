@@ -1,0 +1,15 @@
+1.
+    tms_task
+    tms_task_item
+    tms_template
+    三个表增加字段 'excel_file_url'
+
+    tms_task_item和tms_task需要增加更新 'excel_file_url'的接口
+
+2.
+    '/ams/amsFile/uploadAnyFile 文件上传(任意格式)'
+    此接口上传的文件，存储的文件名需要有扩展名（如xls和xlsx）
+
+3. 
+    '/tms/tmsTask/getByArea 根据省市获取任务'
+    此接口需要增加 起始时间'、'结束时间'、'任务完成状态'作为筛选条件
